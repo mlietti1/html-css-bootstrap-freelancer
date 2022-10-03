@@ -11,11 +11,24 @@
         header {
             background-color: #2c3e50;
         }
+
+        section {
+            margin-top: 20px 0;
+            padding: 20px 0;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            height: 110px;
+        }
+
+        textarea {
+            width: 100%;
+        }
         
         [class^="container"], [class^="col"] {
       background-color: rgba(173, 242, 244, 0.4);
       border: 1px solid black;
-      margin-bottom: 20px;
       min-height: 80px;
     }
 
@@ -29,8 +42,20 @@
             background-color: rgb(127, 200, 255);
         }
 
-        .about-info {
+        .about-info, .contact-info {
             width: 60%;
+        }
+
+        .cta {
+            background-color: #3a546d;
+        }
+
+        ul {
+            list-style: none;
+        }
+        
+        li {
+            margin-left: 10px;
         }
 
     </style>
@@ -81,8 +106,8 @@
             <div class="text-center">&star;</div>
             <div class="container about-info">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6"></div>
-                    <div class="col-sm-12 col-md-6"></div>
+                    <div class="col-sm-12 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque esse tenetur? Architecto eligendi distinctio non iusto explicabo deleniti necessitatibus veniam, ullam dicta labore eos in vero pariatur fuga esse.</div>
+                    <div class="col-sm-12 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque esse tenetur? Architecto eligendi distinctio non iusto explicabo deleniti necessitatibus veniam, ullam dicta labore eos in vero pariatur fuga esse.</div>
                 </div>
             </div>
             <div class="text-center">
@@ -90,9 +115,50 @@
             </div>
         </section>
 
-        <section>
+        <section class="contact">
+            <h2 class="text-center">CONTACT ME</h2>
+            <div class="text-center">&star;</div>
+            <div class="container contact-info">
+                <div class="row">
+                    <div class="col-12">
+                        <h5>Name</h5>
+                    </div>
+                    <div class="col-12">
+                        <h5>E-mail Address</h5>
+                    </div>
+                    <div class="col-12">
+                        <h5>Phone Number</h5>
+                    </div>
+                    <div class="col-12">
+                        <h5>Message</h5>
+                        <textarea name="message" id="message" rows="10"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button>Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="cta">
+            <div class="container-sm cta-info">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h3>LOCATION</h3>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h3>AROUND THE WEB</h3>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <h3>ABOUT FREELANCER</h3>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <div class="text-center">Copyright</div>
+    </footer>
 </body>
 </html>
