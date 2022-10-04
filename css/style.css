@@ -7,7 +7,7 @@ button.navbar-toggler {
     border: 1px solid white;
 }
 
-.jumbotron .col {
+.white {
     color: white;
 }
 
@@ -30,14 +30,34 @@ button.navbar-toggler {
     background-color: white;
 }
 
+
+.portfolio .col img {
+    border-radius: 0.5rem;
+}
+
 .mc-container {
     margin: 0 auto;
     width: 60%;
 }
 
-.portfolio .col img {
-    border-radius: 0.5rem;
+.about .mc-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0.5rem 0.8rem;
 }
+
+.about .mc-btn i {
+    margin-right: 4px;
+}
+
+.about .mc-btn:hover {
+    background-color: white;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+}
+
 
 footer {
     background-color: #2c3e50;
@@ -62,9 +82,6 @@ min-height: 80px;
     width: 226px;
 }
 
-.about-info, .contact-info {
-    width: 60%;
-}
 
 .cta {
     background-color: #3a546d;
