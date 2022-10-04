@@ -41,11 +41,8 @@ button.navbar-toggler {
 }
 
 .about .mc-btn {
-    text-decoration: none;
     color: white;
     border: 1px solid white;
-    border-radius: 4px;
-    padding: 0.5rem 0.8rem;
 }
 
 .about .mc-btn i {
@@ -58,6 +55,21 @@ button.navbar-toggler {
     border: 1px solid #2c3e50;
 }
 
+.contact input, .contact textarea {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.contact textarea {
+    height: 110px;
+}
+
+.contact .btn-send {
+    background-color: #1abc9c;
+    color: white;
+}
 
 footer {
     background-color: #2c3e50;
