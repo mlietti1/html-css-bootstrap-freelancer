@@ -13,19 +13,30 @@ button.navbar-toggler {
 
 .container i.bi-star-fill {
     font-size: 2rem;
-    color: white;
 } 
+
+.container i.bi-star-fill.white {
+    color: white;
+}
 
 .star .col-2 .line {
     height: 4px;
     width: 100%;
     border-radius: 4px;
+    background-color: black;
+}
+
+.star .col-2 .line.white {
     background-color: white;
 }
 
-section {
-    margin-top: 20px 0;
-    padding: 20px 0;
+.mc-container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.portfolio .col img {
+    border-radius: 0.5rem;
 }
 
 footer {
