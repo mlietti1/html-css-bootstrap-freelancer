@@ -38,9 +38,24 @@ button.navbar-toggler {
     background-color: white;
 }
 
-
-.portfolio .col img {
+.mc-card {
     border-radius: 0.5rem;
+}
+
+.mc-card i {
+    font-size: 3rem;
+    color: white;
+}
+
+.layover {
+    background-color: rgba(26, 188, 156, 0.524);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mc-card:hover .layover {
+    display: flex;
 }
 
 .mc-container {
